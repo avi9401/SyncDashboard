@@ -86,7 +86,6 @@ const App = () => {
 
               </Routes>
             </div>
-            <Ecommerce />
             <Footer />
           </div>
         </div>
