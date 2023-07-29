@@ -65,7 +65,7 @@ const App = () => {
 
               <Routes>
                 {/* dashboard  */}
-                <Route path="https://avi9401.github.io/SyncDashboard/" element={(<Ecommerce />)} />
+                <Route path="/" element={(<Ecommerce />)} />
                 <Route path="/ecommerce" element={(<Ecommerce />)} />
 
                 {/* pages  */}
@@ -86,6 +86,7 @@ const App = () => {
 
               </Routes>
             </div>
+            <Ecommerce />
             <Footer />
           </div>
         </div>
